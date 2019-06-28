@@ -1,0 +1,24 @@
+difference bewteen ebs and s3:
+
+-ebs is for operating system and s3 is for online storage
+
+-when we create ebs it for each instance while s3 can be used by  many instances
+
+
+
+
+difference between nosql and sql 
+
+-no sql doesnot have structured data while sql has structured data
+-no ACID for nosql  ,  sql has ACID properties
+
+
+
+difference between ssh and http
+
+
+ssh and hhtp are protocols to communicate between client and server 
+ssh connects over port 22 ,http connects over port 80
+example for ssh is putty as its connects to ec2 over port 22 ,http is for web application
+
+ 
