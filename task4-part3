@@ -1,0 +1,7 @@
+
+---->Count how many times word NULL appeared on mysqlsampledatabase.sql file
+
+grep 'NULL' mysqldump | wc -c
+
+
+

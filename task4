@@ -1,0 +1,10 @@
+
+
+On ec2 instance Count number of lines of the mysqldump file
+
+
+
+ less mysqldump |wc -l 
+ 
+
+ans----> 4067 

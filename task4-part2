@@ -1,0 +1,4 @@
+ ----->Create a new file from the file mysqlsampledatabase.sql where every word “mysql” is replaced with “yoursql” 
+
+
+sed 's/MySQL/yoursql/g' mysqldump |  less mysqldump > mysqlnew
