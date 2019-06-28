@@ -1,0 +1,14 @@
+curl -X GET \
+  https://tejasvini-final.s3.us-east-2.amazonaws.com/mysqlsampledatabase.sql \
+  -H 'Accept: */*' \
+  -H 'Authorization: AWS4-HMAC-SHA256 Credential=AKIA2LOD6GN6U5HKPUFT/20190628/us-east-2/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=13f9c03cb1dde743ea0e1d8d39b34088c4ca3a509cc0f56abb52f5bc04337eb6' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: tejasvini-final.s3.us-east-2.amazonaws.com' \
+  -H 'Postman-Token: 67054229-98b9-4b3a-b185-5c360b3a1b59,07e9cad5-3ed7-4c5e-8638-192ddb1a5c17' \
+  -H 'User-Agent: PostmanRuntime/7.15.0' \
+  -H 'X-Amz-Content-Sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855' \
+  -H 'X-Amz-Date: 20190628T171608Z' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'cache-control: no-cache' >> s3 
+  ls
